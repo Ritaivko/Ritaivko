@@ -30,6 +30,7 @@ const leftOffsetProp = 'right';
 const rightOffsetProp = 'left';
 const upOffsetProp = 'bottom';
 const downOffsetProp = 'top';
+const INITIAL_VALUE = parseInt('50px');
 
 let currentOffsetProp = rightOffsetProp;
 createInterval(snake);
